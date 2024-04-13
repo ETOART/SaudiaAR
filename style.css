@@ -102,3 +102,26 @@ model-viewer {
 .largertext{
     font-size: 2.6rem;
 }
+
+button[slot="ar-button"] {
+    position: absolute; /* Allow absolute positioning */
+    bottom:30px; /* Position vertically at 50% */
+    left: 50%; /* Position horizontally at 50% */
+    transform: translate(-50%, -50%); /* Center using transform */
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    display: flex; /* Enable Flexbox for button */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 30px; /* Adjust height as needed */
+    padding: 20px 20px; /* Adjust padding as needed */
+    color: #6e6e6e;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
